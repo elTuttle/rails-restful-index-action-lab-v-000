@@ -1,7 +1,7 @@
 class StudentController < ApplicationController
 
   def index
-    erb :index
+    render "index"
   end
 
 end
